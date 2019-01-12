@@ -1,0 +1,30 @@
+{
+  "name": "djt-node-sequelize",
+  "version": "1.0.0",
+  "description": "A package which can be used to build a server which reads and writes data to a database using sequelize.",
+  "main": "src/server.ts",
+  "scripts": {
+    "serve": "tsc --build; node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davidthorn/node-sequelize.git"
+  },
+  "author": "David Thorn <david.thorn21278@googlemail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/davidthorn/node-sequelize/issues"
+  },
+  "homepage": "https://github.com/davidthorn/node-sequelize#readme",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mysql": "^2.15.5",
+    "@types/sequelize": "^4.27.33",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "express-prettify": "^0.1.1",
+    "mysql": "^2.16.0",
+    "sequelize": "^4.42.0",
+    "typescript": "^3.2.2"
+  }
+}
